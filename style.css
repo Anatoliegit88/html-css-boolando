@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+.div1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% / 3 - 10px);
+}
+
+.card {
+  position: relative;
+  margin-bottom: 10px;
+}
+.discount {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+img {
+  max-width: 100%;
+}
