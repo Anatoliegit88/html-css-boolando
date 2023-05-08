@@ -4,23 +4,60 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 90%;
-  margin: 20px auto 0;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkorange;
+  color: white;
+}
+.type {
+  display: flex;
+}
+.type p {
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.logo img {
+  padding-right: 10px;
 }
 
-.div1 {
-  display: inline-flex;
+.shoping {
+  display: flex;
+}
+.shoping i {
+  padding: 10px;
+}
+/* CONTAINER */
+.container {
+  width: 1100px;
+  margin: 40px auto;
+}
+.cards {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: calc(100% / 3 - 10px);
-  position: relative;
 }
 
 .card {
+  width: calc(100% / 3 - 50px);
+  justify-content: space-between;
   position: relative;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-bottom: 40px;
+}
+.text-n {
+  text-decoration: none;
+}
+.text-t {
+  text-decoration-line: line-through;
+}
+.card a {
+  color: black;
 }
 .discount {
   position: absolute;
@@ -35,16 +72,17 @@
 .sostenibLe {
   position: absolute;
   bottom: 115px;
-  left: 40px;
+  left: 60px;
   background-color: green;
-  padding: 3.5px;
+  padding: 4px;
 }
 .heart {
   background-color: white;
   position: absolute;
   top: 10px;
   right: 0;
-  padding: 5px 7px;
+  padding: 4px 13px;
+  font-size: x-large;
 }
 
 img {
